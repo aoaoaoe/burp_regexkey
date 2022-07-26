@@ -1,6 +1,6 @@
 # burp_regexkey
 通过正则匹配返回包中一些key之类的敏感信息的BurpSuite被动扫描插件<br>
-正则表达式在src/main/resouces/json/1.json，直接增删改后重新打包即可，非常方便
+正则表达式在src/main/resouces/json/1.json，直接增删改后重新打包即可，非常方便(打包后可能会有两个jar包，使用burp_regexkey.jar)
 # 简介
 之前看到一篇公众号的文章，通过正则表达式搜索返回包中的敏感信息，感觉这个方法挺好的，运气好的话还可以搜到云存储桶的key和id
 https://mp.weixin.qq.com/s/kqIxdCAqBFZ8a50QMK9THw  
