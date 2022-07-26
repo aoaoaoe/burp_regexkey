@@ -44,7 +44,6 @@ public class BurpExtender extends AbstractTableModel implements IBurpExtender,IT
             public void run() {
                 splitPane=new JSplitPane(JSplitPane.VERTICAL_SPLIT);
                 Table logTable=new Table(BurpExtender.this);
-                logTable.setAutoCreateRowSorter(true);
                 JScrollPane scrollPane=new JScrollPane(logTable);
                 splitPane.setLeftComponent(scrollPane);
 
